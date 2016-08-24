@@ -1,4 +1,3 @@
-var paper = require('../../node_modules/paper/dist/paper-full.js');
-paper.setup(new paper.Size(1024, 768));
-
-
+//testing for a small circle.
+var myBall = new Path.Circle(new Point(70, 70), 50);
+myBall.fillColor = 'tomato';

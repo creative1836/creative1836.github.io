@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: gainsboro;
+    position: absolute;
+    padding-left: 20px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: darkgrey;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 50px;
+
+}
