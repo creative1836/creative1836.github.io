@@ -38,7 +38,7 @@ hr {
     right: 0;
     margin: auto;
     opacity: 0; 
-    z-index: 100;
+    z-index: 201;
 }
 
 .chairs {
@@ -48,7 +48,6 @@ hr {
     margin: auto;
     width: 30vh;
     height: auto;
-    z-index: 201;
 }
 
 .logo {
@@ -68,6 +67,7 @@ hr {
     right: 0;
     margin: auto;
     opacity: 0;
+    z-index: 101;
 }
 
 .about-right {
@@ -77,13 +77,14 @@ hr {
     float: right;
     background-color: #A8EFFC;
     text-align: left;
+    overflow: auto;
 }
 
 .about-right-text {
     position: absolute;
-    width: 70%;
+    width: 80%;
     top: 5%;
-    right: 20%;
+    right: 10%;
     margin: auto;
     color: #100f20;
     font-size: 1.1vw;
@@ -115,6 +116,16 @@ hr {
     right: 0;
     left: 0;
     margin: auto;
+}
+
+#partner-logo-long {
+    max-width: 200px;
+    height: auto;
+}
+    
+#partner-logo-square {
+    max-width: 100px;
+    height: auto;
 }
 
 /*CONTACT SCREEN*/
@@ -336,7 +347,7 @@ input[type=text] {
     color: ghostwhite;
     border: transparent;
     text-align: center;
-    z-index: 200;
+    z-index: 205;
 }
 
 .menulink {

@@ -7,31 +7,31 @@ $(window).load(function () {
 });
 
 function showMain(){
-    $(".slide").fadeOut("slow").animate({opacity : '0'}, 100);
-    $("#main").fadeIn("slow").animate({opacity : '1'}, 300);
+    $(".slide").fadeOut("slow").animate({opacity : '0'}, 100).css("z-index", 0);
+    $("#main").fadeIn("slow").animate({opacity : '1'}, 300).css("z-index", 201);
 }
 
 function showAbout() {
-    $(".slide").fadeOut("slow").animate({opacity : '0'}, 100);
-    $("#about").fadeIn("slow").animate({opacity : '1'}, 300);
+    $(".slide").fadeOut("slow").animate({opacity : '0'}, 100).css("z-index", 0);
+    $("#about").fadeIn("slow").animate({opacity : '1'}, 300).css("z-index", 199);
 };
 
 function showTeam() {
-    $(".slide").fadeOut("slow").animate({opacity : '0'}, 100);
-    $("#team").fadeIn("slow").animate({opacity : '1'}, 300);
+    $(".slide").fadeOut("slow").animate({opacity : '0'}, 100).css("z-index", 0);
+    $("#team").fadeIn("slow").animate({opacity : '1'}, 300).css("z-index", 199);
 };
 
 function showContact() {
-    $(".slide").fadeOut("slow").animate({opacity : '0'}, 100);
+    $(".slide").fadeOut("slow").animate({opacity : '0'}, 100).css("z-index", 0);
     $("#contact").fadeIn("slow").animate({opacity : '1'}, 300);
 };
 
 function showForm() {
     $(".slide").fadeOut("slow").animate({opacity : '0'}, 100);
-    $("#apply").fadeIn("slow").animate({opacity : '1'}, 300);
+    $("#apply").fadeIn("slow").animate({opacity : '1'}, 300).css("z-index", 199);
 };
 
 function thankYou() {
-    $(".slide").fadeOut("slow").animate({opacity : '0'}, 100);
+    $(".slide").fadeOut("slow").animate({opacity : '0'}, 100).css("z-index", 0);
     $("#thanks").fadeIn("slow").animate({opacity : '1'}, 300);
 }

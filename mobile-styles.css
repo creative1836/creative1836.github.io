@@ -69,6 +69,23 @@
         width: 10vh;
     }
     
+    .partners {
+        position: absolute;
+        left: 0;
+        right 0;
+        margin: auto;
+    }
+    
+    #partner-logo-long {
+        max-width: 100px;
+        height: auto;
+    }
+    
+    #partner-logo-square {
+        max-width: 50px;
+        height: auto;
+    }
+    
     /*CONTACT SCREEN*/
     
     #contact {
