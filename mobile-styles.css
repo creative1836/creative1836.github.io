@@ -1,0 +1,140 @@
+@media only screen and (max-device-width: 480px){
+    body {
+        height: auto;
+    }
+    
+    /*MAIN SCREEN*/
+    
+    #main {
+        width: 40vh;
+        height: auto;
+        top: 20vh;
+    }
+    
+    .logo {
+        width: 30vh;
+        height: auto;
+    }
+    
+    .chairs {
+        width: 50vw;
+        height: auto;
+        z-index: 300;
+    }
+    
+    /*ABOUT SCREEN*/
+    
+    .about-right {
+        position: relative;
+        width: 100%;
+        height: 50%;
+        bottom: 25px;
+        margin-top: auto;
+        background-color: #A8EFFC;
+        text-align: left;
+    }
+
+    .about-right-text {
+        position: absolute;
+        width: 70%;
+        top: 5%;
+        right: 15%;
+        margin: auto;
+        color: #100f20;
+        font-size: 1.1vh;
+    }
+
+    .about-left {
+        position: relative;
+        width: 100%;
+        height: 50%;
+        top: 25px;
+        margin-bottom: auto;;
+        background-color: rgba(255, 255, 255, 0.07);
+        color: ghostwhite;
+        text-align: left;
+        font-family: 'PT Serif', serif;
+    }
+
+    .about-left-text {
+        position: absolute;
+        width: 70%;
+        top: 10%;
+        left: 15%;
+        margin: auto;
+        font-size: 1.3vh;
+    }
+    
+    .about-logo {
+        width: 10vh;
+    }
+    
+    /*CONTACT SCREEN*/
+    
+    #contact {
+        position: fixed;
+        width: 60vw;
+        height: 40vh;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        opacity: 0;
+    }
+    
+    .contact-top-row {
+        position: relative;
+        height: 40%;
+        font-size: 1.5vh;
+    }
+
+    .contact-bottom-row {
+        position: relative;
+        height: 55%;
+        font-size: 1.3vh;
+    }
+
+    .contact-bottom-right {
+        position: relative;
+        width: 70%;
+        height: 100%;
+        float: right;
+        text-align: right;
+        font-family: 'PT Serif', serif;
+    }
+
+    .contact-bottom-left {
+        position: relative;
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+    
+    .coffee {
+        position: relative;
+        width: 10vh;
+    }
+    
+    /*APPLY SCREEN*/
+
+    #apply {
+        width: 70vw;
+        height: 75vh;
+        font-size: 1.3vh;
+    }
+
+    #apply-form {
+        padding: 30px;
+        font-size: 1.2vh;
+    }
+
+    input[type=text] {
+        font-size: 1.2vh;
+    }
+
+    .submit {
+        font-size : 1.2vh;
+    }
+
+}
