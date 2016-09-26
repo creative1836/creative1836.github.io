@@ -86,6 +86,32 @@
         height: auto;
     }
     
+    
+    /*TEAM SCREEN*/
+    
+    #team {
+        position: fixed;
+        width: 70vw;
+        height: 70vh;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        opacity: 0;
+        align-content: center;
+        overflow: auto;
+    }
+    
+    .team-header {
+        font-size: 1.5vh;
+    }
+    
+    .member-photo {
+        width: 80px;;
+        margin: 8px;
+    }
+    
     /*CONTACT SCREEN*/
     
     #contact {
