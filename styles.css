@@ -122,6 +122,11 @@ hr {
     max-width: 200px;
     height: auto;
 }
+
+#partner-logo-medium {
+    max-width: 150px;
+    height: auto;
+}
     
 #partner-logo-square {
     max-width: 100px;
@@ -188,8 +193,8 @@ hr {
 
 #team {
     position: fixed;
-    width: 60vw;
-    height: 40vh;
+    width: 80vw;
+    height: 85vh;
     top: 0;
     bottom: 0;
     left: 0;
@@ -197,7 +202,36 @@ hr {
     margin: auto;
     opacity: 0;
     z-index: 2;
-    text-align: center;
+    text-align: left;
+}
+
+.team-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+}
+
+.team-header {
+    display: inline-block;
+    position: relative;
+    width: 32%;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 4%;
+    float: left;
+    height: 100%;
+    text-align: left;
+    font-size: 1.2vw;
+}
+
+.member-photo {
+    width: 16.6%;
+    margin: 8px;
+}
+
+.team-photos {
+    display: inline-block;
 }
 
 /*APPLY SCREEN*/
