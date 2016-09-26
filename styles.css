@@ -32,8 +32,8 @@ hr {
     height: 80vh;
     position: fixed;
     text-align: center;
-    top: 40vh;
-    bottom: 25vh;
+    top: 30vh;
+    bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
