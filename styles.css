@@ -213,6 +213,7 @@ hr {
     margin-left: 2%;
 }
 
+/*
 .team-header {
     display: inline-block;
     position: relative;
@@ -225,14 +226,15 @@ hr {
     text-align: left;
     font-size: 1.2vw;
 }
+*/
 
 .member-photo {
-    width: 170px;
-    height: 250px;
+    width: 260px;
+    height: 440px;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 7px;
-    margin-right: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .team-photos {
